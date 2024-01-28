@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <!--Creating a Registration Form using Forms Elements and Input types-->
+    <h3>Registration Form</h3>
+    <form action="/action">
+        <div>
+            <input type="text" placeholder="First Name" name="Fname">
+            <input type="text" placeholder="Last Name" name="Lname">
+        </div>
+        <div>
+            <label for="gender">Please Select your Gender :</label>
+            <select name="gender" id="gender">
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+                <option value="o">Others</option>
+            </select>
+        </div>
+        <div>
+            Do you agree all terms of service ?
+            <input type="checkbox" name="tos_agree" id="tos_agree">
+            <label for="tos_agree">Yes , I agree</label>
+        </div>
+        <button>Register</button>
+    </form>
+</body>
+</html>
