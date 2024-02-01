@@ -1,0 +1,11 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    transition: 1s;
+}
+
+div:hover {
+    background-color: yellow;
+    border-radius:50% ;
+}

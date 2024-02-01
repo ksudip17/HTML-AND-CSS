@@ -1,0 +1,27 @@
+.card {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px black;
+    transition: 1s;
+}
+
+.desc {
+    padding: 0 2px 0 2px;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card:hover {
+    box-shadow: 0px 8px 16px aqua;
+}
+
+h3, p {
+    color: blueviolet;
+}
