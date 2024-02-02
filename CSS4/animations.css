@@ -1,0 +1,26 @@
+.box {
+    width: 300px;
+    height: 100px;
+    background-color: pink;
+    animation: colorAnimate 2s ease-in 0s 3 alternate;
+}
+
+@keyframes fontAnimation {
+    from {
+        font-size: 10px;
+    }
+    to {
+        font-size: 20px;
+    }
+}
+
+@keyframes colorAnimate {
+    from {
+        background-color: aqua;
+        width: 100px;
+    }
+    to {
+        background-color: bisque;
+        width: 200px;
+    }
+}
