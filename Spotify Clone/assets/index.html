@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="lib-option nav-option">
+                        <img src="library_icon.png" alt="icon">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="boxp1">Create your first playlist</p>
+                        <p class="boxp2">Its easy we'll help you</p>
+                        <button class="badge">Create Playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="boxp1">Let's find some podcasts to follow</p>
+                        <p class="boxp2">we'll keep you updated on next episodes</p>
+                        <button class="badge">Browse Podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="backward_icon.png" alt="back_icon">
+                    <img src="forward_icon.png" class="hide" alt="for_icon">
+                </div>
+                <div class="sticky-nav-button">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                <button class="badge nav-item dark"> <i class="fa-solid fa-download" style="margin-right: 0.4rem;"></i>Install app</button>
+                <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+            
+
+
+                <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="card1img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of the most played tracks right...</p>
+                    </div>
+                </div>
+
+                <h2>Trending Now near you</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="card2img.jpeg" class="card-img">
+                        <p class="card-title">Mahiye jinna sona</p>
+                        <p class="card-info">Darshan rawal song that refreshes your mood...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="card3img.jpeg" class="card-img">
+                        <p class="card-title">Mere Pass tum ho </p>
+                        <p class="card-info">Songs in magical voice that fall you.</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="card4img.jpeg" class="card-img">
+                        <p class="card-title">India's top 10</p>
+                        <p class="card-info">South songs who gives you totally vibe.</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="card2img.jpeg" class="card-img">
+                        <p class="card-title">Mahiye jinna sona</p>
+                        <p class="card-info">Your daily update of the most played tracks right...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="card4img.jpeg" class="card-img">
+                        <p class="card-title">India's top 10</p>
+                        <p class="card-info">South songs who gives you totally vibe.</p>
+                    </div>
+
+                </div>
+            
+                <h2>Featured Charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="card5img.jpeg" class="card-img">
+                        <p class="card-title">Top Songs - Global</p>
+                        <p class="card-info">Your favorite globals songs is here..</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="card6img.jpeg" class="card-img">
+                        <p class="card-title">Top Songs India</p>
+                        <p class="card-info">Your favorite indian songs that fall you sleep....</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="card1img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of the most played tracks right...</p>
+                    </div>
+                </div>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+        <div class="music-player">
+            <div class="albums">
+                <img src="card2img.jpeg" class="img2" >
+                <i class="fa-regular fa-heart heart"></i>
+            </div>
+            <div class="player">
+                <div class="player-control">
+                    <img src="player_icon1.png" class="player-control-icon" >
+                    <img src="player_icon2.png" class="player-control-icon" >
+                    <img src="player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;" >
+                    <img src="player_icon4.png" class="player-control-icon" >
+                    <img src="player_icon5.png" class="player-control-icon" >
+                </div>
+                <div class="progress">
+                    <span class="current-time">0:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="total-time">2:52</span>
+                </div>
+            </div>
+            <div class="controls">
+                <i class="fa-solid fa-play icon"></i>
+                <i class="fa-solid fa-list icon"></i>
+                <i class="fa-solid fa-folder icon"></i>
+                <i class="fa-solid fa-volume-high icon"></i>
+                <span class="current-time"></span>
+                    <input type="range" min="0" max="100" class="range" step="1">
+                    <span class="total-time"></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
